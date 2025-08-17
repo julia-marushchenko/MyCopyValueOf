@@ -16,5 +16,11 @@ public class Main {
 
         // Printing created string to console
         System.out.println(str);
+
+        // Creating another string with initialization
+        String str1 = String.copyValueOf(arr, 1, 3);
+
+        // Printing created string to console
+        System.out.println(str1);
     }
 }
